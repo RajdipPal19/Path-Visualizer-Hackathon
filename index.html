@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>PathFinding Visualizer</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" /> -->
+</head>
+
+<body onload="app.launch()">
+  <header>
+    <div class="title">PATHFINDING VISUALIZER</div>
+  </header>
+  <div class="grid"></div>
+  <div id="controls">
+    <button class="btn btn-outline-primary" onclick="app.findPathWithCustomSpeed('Start')">
+      Click to Run
+    </button>
+  </div>
+
+  <script src="js/grid.js"></script>
+  <script src="js/ASTAR.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
